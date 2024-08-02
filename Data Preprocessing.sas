@@ -1,11 +1,11 @@
 /* Creating a Library */
 
-libname mylib '/home/paritosh260';
+libname mylib '/home/Admin';
 
 /* Importing the Dataset */
 options validvarname=v7;
 
-proc import datafile="/home/paritosh260/MyCreditRiskData/loan_modified.csv" 
+proc import datafile="/home/Admin/MyCreditRiskData/loan_modified.csv" 
 		out=loan_mod dbms=csv replace;
 		getnames=yes;
 		datarow=2;
